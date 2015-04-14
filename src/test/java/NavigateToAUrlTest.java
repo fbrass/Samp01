@@ -12,5 +12,8 @@ public class NavigateToAUrlTest {
     public void main() {
         WebDriver driver = new FirefoxDriver();
         driver.get("http://www.google.com");
+
+        //close browser with
+        //driver.quit();
     }
 }
